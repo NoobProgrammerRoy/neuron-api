@@ -1,0 +1,17 @@
+{
+  "name": "neuron-api",
+  "version": "1.0.0",
+  "description": "Node.js API for Neuron Desktop App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "production": "node index.js"
+  },
+  "author": "Royston Rodrigues",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.2"
+  }
+}
