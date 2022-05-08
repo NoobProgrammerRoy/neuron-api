@@ -4,7 +4,7 @@ const router = express.Router();
 const cors = require('cors');
 const User = require('../models/userModel');
 
-router.use(express.json())
+router.use(express.json());
 router.use(cors({
     origin: '*',
     methods: ['GET', 'POST']
