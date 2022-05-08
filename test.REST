@@ -1,0 +1,12 @@
+GET https://neuron-app-api.herokuapp.com/api/users/
+
+###
+POST https://neuron-app-api.herokuapp.com/api/users/
+Content-Type: application/json
+
+{
+    "id": "123456789",
+    "speed": 20,
+    "location": "Bangalore",
+    "frequency": 2.4
+}
